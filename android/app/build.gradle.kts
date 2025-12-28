@@ -7,8 +7,9 @@ plugins {
 
 android {
     namespace = "com.example.ai_daily_companion"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    compileSdk = 34
+    buildToolsVersion = "33.0.2"
+    ndkVersion = "25.1.8937393"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
